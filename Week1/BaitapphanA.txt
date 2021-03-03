@@ -1,0 +1,26 @@
+<Phần A>
+
+1. bool isA = (90 <= grade && grade <= 100); 
+2. 0
+3. vì kiểu int ko chứa đc 2^32, x * x vẫn là kiểu int nên phải ép kiểu long(x) cho y để có đủ chỗ chứa.
+	int x = 65536;
+	long y =(long) x * x;
+	cout << y;
+
+4. false
+5. Không in ra j cả
+6. - không biên dịch được vì khác kiểu dữ liệu
+   - chạy bình thường
+7. 
+0
+0.75
+0.75
+0.75
+8. 
+error: conflicting declaration 'char arg1'
+error: 'A' was not declared in this scope
+
+9. biến agr1 trong { }
+10. biến agr1 ngoài { }
+11. chưa ép kiểu (5 / 9) nên luôn có giá trị bằng 0.
+12. Here

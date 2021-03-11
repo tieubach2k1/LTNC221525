@@ -1,0 +1,1 @@
+1. code+test phần A; và ít nhất 03 bài phần B

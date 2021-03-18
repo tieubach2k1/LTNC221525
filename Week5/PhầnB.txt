@@ -1,0 +1,54 @@
+Phần B
+Câu 1: 
+bool majority(bool gt1, bool gt2, bool gt3) {
+	(gt1 != true || gt2 != true || gt3 != true) ? return true : return false;
+}
+
+câu 2:
+bool eq(int a[], int b[], int n) {
+	int count;	
+	for (int i = 0; i < n; i++) {
+		if (a[i] == b[i]) count ++;
+	}
+	if (count == n) return true;
+	else return false;
+}
+
+Câu 3: 
+1000 lần
+
+Câu 4:
+lỗi do negate là hàm có sẵn
+
+Câu 5:
+test: 4 5 6 7
+phương án  3
+
+Câu 6:
+nếu để 1 hàm thì sẽ in kq tương ứng
+nếu để cả 2 hàm thì báo lỗi do ko đúng kiểu dữ liệu int
+
+Câu 7: D
+Câu 8: B
+Câu 9: D
+Câu 10: B
+Câu 11: C
+Câu 12: B
+Câu 13:	B
+Câu 14: A
+Câu 15: B
+Câu 16:	D
+Câu 17: A
+Câu 18: A
+Câu 19: B
+Câu 20: C
+Câu 21: B
+Câu 22: C
+Câu 23: A
+Câu 24: B
+Câu 25: D
+Câu 26: A
+
+
+
+

@@ -1,24 +1,29 @@
 Phần B
 Câu 1: 
 bool majority(bool gt1, bool gt2, bool gt3) {
-	(gt1 != true || gt2 != true || gt3 != true) ? return true : return false;
+	bool kt;
+	(gt1 + gt2 + gt3  >= 2 ) ? kt = true : kt =false;
+	return kt;
 }
 
 câu 2:
 bool eq(int a[], int b[], int n) {
 	int count;	
 	for (int i = 0; i < n; i++) {
-		if (a[i] == b[i]) count ++;
-	}
-	if (count == n) return true;
+		
+		for (int j = 0; j < n; j++) {
+			if (a[i] == b[i]) count ++;
+		}
+	
+	if (count == 2*n) return true;
 	else return false;
 }
 
 Câu 3: 
-1000 lần
+1000 lần do tham trị
 
 Câu 4:
-lỗi do negate là hàm có sẵn
+17 và 17 do tham trị
 
 Câu 5:
 test: 4 5 6 7

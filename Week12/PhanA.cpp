@@ -98,61 +98,61 @@ struct SlinkedList
 	}
 };
 
-void testA1(SlinkedList& U)
+void testA1(SlinkedList& L)
 {
     cout << "A1: " ;
-    U.addLast("a");
-	U.addLast("");
-	U.addLast("c");
-	U.addFirst("d");
-	U.print();
+    L.addLast("a");
+	L.addLast("");
+	L.addLast("c");
+	L.addFirst("d");
+	L.print();
 }
 
-void testA2(SlinkedList& U)
+void testA2(SlinkedList& L)
 {
     cout << "A2: ";
-    U.removeFirst();
-    U.print();
+    L.removeFirst();
+    L.print();
 }
 
 
-void testA3(SlinkedList& U)
+void testA3(SlinkedList& L)
 {
     cout << "A3: " ;
-    U.destructor();
-    U.print();
+    L.destructor();
+    L.print();
 }
 
-void testA4(SlinkedList& U)
+void testA4(SlinkedList& L)
 {
     cout << "A4: ";
-    U.removeLast();
-    U.print();
+    L.removeLast();
+    L.print();
 }
 
-void testA5(SlinkedList& U)
+void testA5(SlinkedList& L)
 {
     cout << "A5: " ;
-    U.insertAfter(U.head, "1");
-    U.insertAfter(U.head, "3");
-    U.print();
+    L.insertAfter(L.head, "1");
+    L.insertAfter(L.head, "3");
+    L.print();
 }
 
-void testA6(SlinkedList& U)
+void testA6(SlinkedList& L)
 {
     cout << "A6: " ;
-    Node* p = U.head->next;
-    cout << U.remove(p) << endl;
-    U.print();
+    Node* p = L.head->next;
+    cout << L.remove(p) << endl;
+    L.print();
 }
 int main()
 {
-    SlinkedList u;
+    SlinkedList l;
 
-    testA1(u);
-    testA2(u);
-    testA4(u);
-    testA5(u);
-    testA6(u);
+    testA1(l);
+    testA2(l);
+    testA4(l);
+    testA5(l);
+    testA6(l);
     return 0;
 }
